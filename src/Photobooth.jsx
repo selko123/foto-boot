@@ -21,9 +21,9 @@ import { Camera, Scissors, RefreshCw, Download, Circle, SwitchCamera } from "luc
  */
 
 const FILTERS = {
-  bw: { label: "black & white", css: "grayscale(1) contrast(1.15) brightness(1.02)" },
-  color: { label: "color", css: "saturate(1.15) contrast(1.05)" },
-  sepia: { label: "sepia", css: "sepia(0.55) contrast(1.05) brightness(1.02)" },
+  bw: { label: "hitam & putih", css: "grayscale(1) contrast(1.15) brightness(1.02)" },
+  color: { label: "polos", css: "saturate(1.15) contrast(1.05)" },
+  sepia: { label: "cokelat hangat", css: "sepia(0.55) contrast(1.05) brightness(1.02)" },
 };
 
 const SHOTS_NEEDED = 4;
