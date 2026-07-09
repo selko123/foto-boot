@@ -37,7 +37,7 @@ const CELL_W = Math.floor((STRIP_W - OUTER_PAD * 2 - CELL_GAP * (GRID_COLS - 1))
 const CELL_H = Math.round(CELL_W * (4 / 3)); // matches captured photo's 3:4 portrait ratio
 
 const FRAME_STYLES = {
-  haru: { label: "Haru film" },
+  haru: { label: "film" },
   cute: { label: "cute doodle" },
 };
 
@@ -280,9 +280,9 @@ export default function Photobooth() {
       ctx.fillText(`▶ ${SHOTS_NEEDED}`, STRIP_W - OUTER_PAD, 24);
 
       ctx.textAlign = "center";
-      ctx.font = "28px Georgia, 'Times New Roman', serif";
+      ctx.font = "italic 32px 'Pacifico'";
       ctx.fillStyle = "#1c1c1c";
-      ctx.fillText("Haru film", STRIP_W / 2, 56);
+      ctx.fillText("film", STRIP_W / 2, 56);
     }
 
     const gridTop = headerH + OUTER_PAD;
