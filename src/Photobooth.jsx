@@ -347,7 +347,7 @@ export default function Photobooth() {
         ctx.textAlign = "left";
         ctx.font = "11px Arial, sans-serif";
         ctx.fillStyle = "#8a8a8a";
-        ctx.fillText("SPARK fotoboot", OUTER_PAD, footerY + 18);
+        ctx.fillText("SPARK fotobooth", OUTER_PAD, footerY + 18);
         ctx.textAlign = "right";
         ctx.fillText(dateStr, STRIP_W - OUTER_PAD, footerY + 18);
       } else {
@@ -432,7 +432,7 @@ export default function Photobooth() {
               letterSpacing: 0.3,
             }}
           >
-            SPARK  <span style={{ color: "var(--accent)" }}>✻</span> fotoboot
+            SPARK  <span style={{ color: "var(--accent)" }}>✻</span> fotobooth
           </div>
           <div style={{ fontSize: 12, color: "var(--ink-soft)", marginTop: 4, letterSpacing: 1 }}>
             {SHOTS_NEEDED} PHOTOS 
