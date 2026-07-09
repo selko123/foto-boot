@@ -279,9 +279,7 @@ export default function Photobooth() {
       ctx.fillStyle = "#8a8a8a";
       ctx.fillText(`▶ ${SHOTS_NEEDED}`, STRIP_W - OUTER_PAD, 24);
 
-      ctx.textAlign = "center";
-      ctx.font = "italic 32px 'Pacifico'";
-      ctx.fillStyle = "#1c1c1c";
+      ctx.textAlign = "center"; ctx.font = "28px Georgia, 'Times New Roman', serif"; ctx.fillStyle = "#1c1c1c";
       ctx.fillText("film", STRIP_W / 2, 56);
     }
 
