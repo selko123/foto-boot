@@ -717,7 +717,7 @@ export default function Photobooth() {
                   gap: 8,
                 }}
               >
-                <Download size={15} /> download strip
+                <Download size={15} /> download 
               </button>
               <button
                 onClick={startOver}
